@@ -1,0 +1,11 @@
+.menu__admin {
+  border: 0.5px solid gainsboro;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  right: 30px;
+  top: 65px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+}

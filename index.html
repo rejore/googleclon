@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google Clon</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+	 <header class="header"> 
+	     <nav class="header__nav">
+		    <ul class="header__list">
+               <li  class="header__list--item"><a href="#">Gmail</a></li>
+			   <li  class="header__list--item"><a href="#">Imàgenes</a></li>
+			   <li  class="header__list--item  header__list--menu">
+			     <a href="#" id="menu">
+			      <span class="material-icons menu__icon ">
+                    format_align_justify
+                  </span>
+				 </a>
+			   </li>
+			   <li  class="header__list--item"><a href="#">
+			       <img src="./images/yo.jpg" width="30"/>
+			   </a></li>
+		    </ul>
+		 </nav>
+	 </header>
+
+     <aside class="menu__admin hide" id="menu__admin">
+	 </aside>
+
+	 <section class="section">
+        <figure class="section__figure">
+		   <img src="./images/google.png"/>
+		</figure>
+		<div class="section__search">
+		    <div class="section__search--search">
+             <span class="material-icons">
+                search
+             </span> 
+		   </div>
+		   <div class="section__search--input">
+             <input type="text" id="inputGoogle"/>
+		   </div>  
+           <div class="section__search--voice">
+             <span id="voice__active" class="material-icons">
+                settings_voice
+            </span> 
+		   </div> 
+		</div>
+        <div class="section__buttons">
+           <button>Buscar con Google</button>
+		   <button>Me siento con Suerte</button>
+    	</div>
+  	 </section>
+
+	 <footer class="footer">
+         <div class="footer__peru">
+		    <span>Perù</span>
+		 </div>
+		 <div class="footer__section">
+             <div class="footer__section--left">
+			    <span>Publicidad</span>
+			    <span>Negocios</span>
+			    <span>Sobre Google</span>
+			    <span>Como funciona la Bùsqueda</span>		
+			 </div>
+			 <div class="footer__section--right">
+                 <span>Privacidad</span>
+				 <span>Condiciones</span>
+				 <span>Preferencias</span>
+			 </div>  
+		 </div>   
+	 </footer>   
+
+
+	 <script src="./js/index.js"></script>  
+</body>
+</html>

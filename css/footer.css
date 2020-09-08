@@ -1,0 +1,33 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  background: #f2f2f2;
+  font-weight: normal;
+}
+
+.footer__peru {
+  border-bottom: 0.6px solid gray;
+  padding: 0.5em;
+  margin: 0 7px;
+  color: gray;
+}
+
+.footer__section {
+  display: grid;
+  padding: 0.5em;
+  justify-content: space-between;
+  grid-template-columns: 550px 300px;
+}
+
+.footer__section--left span {
+  margin: 0 7px;
+  color: black;
+}
+
+.footer__section--right span {
+  margin: 0 7px;
+  color: black;
+}

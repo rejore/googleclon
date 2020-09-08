@@ -1,0 +1,9 @@
+.voice_color {
+  color: red !important;
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+.hide {
+  display: none;
+}
